@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__header {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body__box {
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    height: 40px;
+    padding: 10px;
+}
+
+.check__message {
+    color: red;
+    font-size: 5px;
+    margin: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.phone__num {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pbox1 {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    height: 40px;
+    width: 90px;
+}
+
+.pbox2 {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    height: 40px;
+    width: 130px;
+}
+
+.pbox3 {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    height: 40px;
+    width: 130px;
+}
+
+.check__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.check__button__style {
+    margin-left: 10px;
+    height: 40px;
+    width: 380px;
+}
+
+.ok__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.ok__button__style {
+    margin-left: 10px;
+    height: 40px;
+    width: 370px;
+}
+
+.time_num {
+    margin-left: 5px;
+}
+
+.country__choice {
+    margin: 10px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.radio__style {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.radio_button {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#radio__check__message {
+    text-align: center;
+    margin: 3px;
+    color: red;
+    font-size: 5px;
+}
+
+.wrapper__footer {
+    border-top: 1px solid darkgray;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.join__button {
+    margin-top: 20px;
+    border: 1px solid balck;
+    height: 40px;
+    padding: 10px;
+    width: 700px;
+}
